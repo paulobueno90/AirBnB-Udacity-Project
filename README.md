@@ -3,6 +3,7 @@
 The following project has been created as part of the Udacity Data Science Nanodegree https://www.udacity.com/course/data-scientist-nanodegree--nd025
 
 ## Motivation:
+
 It was done a analysis, in order to answer 3 key questions bellow.
 
 - What are the neighborhoods with the best prices?
@@ -11,7 +12,18 @@ It was done a analysis, in order to answer 3 key questions bellow.
 
 - What to expect in terms of cleaning fee and how much it increases the price on average?
 
+- When are high seasons and low seasons ?
+
+## Libraries Used
+
+Python Version: 3.8.5
+
+- Pandas
+- Matplotlib
+
 ## Files:
+
+- seattle_airbnb.ipynb - Jupyter Notebook which contains the analysis.
 
 Seattle folder contains:
 - calendar.csv - Detailed Calendar Data for listings in Seattle
@@ -20,13 +32,44 @@ Seattle folder contains:
 This dataset and others can be found [here](http://insideairbnb.com/get-the-data.html)
 
 ## Results:
-A summary of results can be found in Medium artile: https://medium.com/@phoebe.macdonald/how-can-you-increase-your-airbnb-score-and-why-b1e7a011d95 and within the Jupyter notebook.
 
-1. Do more expensive properties tend to have higher reviews scores?
-There is a weak relationship between price and review score. It is unusual for expensive properties to have low review scores but high review scores are obtainable for cheaper properties.
+##### What are the neighborhoods with higher and lower prices ?
 
-2. Do properties with a flexible cancellation policy have higher review scores?
-There is a weak relationship between cancellation booking flexibility and review score with more flexible policy properties having a marginally higher review score than those with moderate policies and (to a greater extent) strict policies.
+- Higher Prices
+    * 1 - Pike-Market
+    * 2 - Central Business District
+    * 3 - Harrison / Denny-Blaine
+    * 4 - Portage Bay
+    * 5 - West Queen Anne
+    
+- Lower Prices
+    * 1 - Olympic Hills
+    * 2 - Meadowbrook
+    * 3 - Highland Park
+    * 4 - South Delridge
+    * 5 - South Park
+    
+##### What type of property has the higher and lower prices ?
+From the selected property types in the analysis:
 
-3. Do properties with higher reviews more frequently booked up?
-No, there appears to be no relationship between review score and availability.
+- Higher Prices:
+    * Serviced Apartment
+    * Apartment
+    * Loft
+- Lower Prices:
+    * Aparthotel
+    * Guesthouse
+    * Guest Suite
+
+##### What to expect in terms of cleaning fee and how much it increases the price on average?
+
+- The data show that the mean of means by property is nearly 39%
+
+- Higher mean Cleaning fee was "condominium type" (50.49%)
+
+- Lower mean Cleaning fee was "Aparthotel" (3.08%). However if i consider 'Aparthotel' an outlier, the second lower was 'Apartment' (35.29%)
+
+
+##### When are high seasons and low seasons ?
+- High season: June, July and August
+- Low season: January, February and March
