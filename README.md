@@ -12,12 +12,14 @@ It was done a analysis, in order to answer 3 key questions bellow.
 - What to expect in terms of cleaning fee and how much it increases the price on average?
 
 ## Files:
+
 Seattle folder contains:
 - calendar.csv - Detailed Calendar Data for listings in Seattle
 - listings.csv - Detailed Listings data for Seattle
+
 This dataset and others can be found [here](http://insideairbnb.com/get-the-data.html)
 
-Results:
+## Results:
 A summary of results can be found in Medium artile: https://medium.com/@phoebe.macdonald/how-can-you-increase-your-airbnb-score-and-why-b1e7a011d95 and within the Jupyter notebook.
 
 1. Do more expensive properties tend to have higher reviews scores?
