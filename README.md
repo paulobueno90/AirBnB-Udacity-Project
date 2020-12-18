@@ -6,6 +6,8 @@
 
 The following project has been created as part of the Udacity Data Science Nanodegree https://www.udacity.com/course/data-scientist-nanodegree--nd025
 
+Blog post avaible in this [link](https://medium.com/@paulobueno_38478/visiting-seattle-in-2021-4fa93259be6b)
+
 ## Motivation:
 
 It was done a analysis, in order to answer 3 key questions bellow.
