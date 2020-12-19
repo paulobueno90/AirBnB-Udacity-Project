@@ -1,3 +1,5 @@
+[![author](https://img.shields.io/badge/author-Paulo%20Bueno-blue.svg)](https://www.linkedin.com/in/paulo-bueno-06a4b34a/) [![](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-385/) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://www.mit.edu/~amini/LICENSE.md) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/paulobueno90/AirBnB-Udacity-Project/issues)
+
 <p align="center">
    <img src="banner.png" >
 </p>
@@ -79,3 +81,9 @@ From the selected property types in the analysis:
 ##### When are high seasons and low seasons ?
 - High season: June, July and August
 - Low season: January, February and March
+
+## Acknowledgements
+
+Udacity - For giving me the opportunity to learn and develop with real projects
+
+Udacity Reviewers - for patience and dedication helping me to improve the project. Bringing detailed reviews with great tips.
